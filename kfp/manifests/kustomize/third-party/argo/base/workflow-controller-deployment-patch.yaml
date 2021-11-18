@@ -12,7 +12,7 @@ spec:
             - --configmap
             - workflow-controller-configmap
             - --executor-image
-            - registry.app.corpintra.net/dna/ml-pipeline/argoexec:v3.1.6-patch-license-compliance
+            - gcr.io/ml-pipeline/argoexec:v3.1.6-patch-license-compliance
           resources:
             requests:
               cpu: 100m
