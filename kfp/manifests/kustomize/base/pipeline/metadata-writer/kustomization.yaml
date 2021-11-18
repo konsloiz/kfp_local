@@ -6,5 +6,5 @@ resources:
   - metadata-writer-rolebinding.yaml
   - metadata-writer-sa.yaml
 images:
-  - name: registry.app.corpintra.net/dna/ml-pipeline/metadata-writer
+  - name: gcr.io/ml-pipeline/metadata-writer
     newTag: 1.7.0

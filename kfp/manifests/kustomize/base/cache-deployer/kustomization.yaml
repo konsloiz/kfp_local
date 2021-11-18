@@ -7,5 +7,5 @@ resources:
 commonLabels:
   app: cache-deployer
 images:
-  - name: registry.app.corpintra.net/dna/ml-pipeline/cache-deployer
-    newTag: dna1.0
+  - name: gcr.io/ml-pipeline/cache-deployer
+    newTag: 1.7.0

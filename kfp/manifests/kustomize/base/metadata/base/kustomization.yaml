@@ -8,5 +8,5 @@ resources:
   - metadata-envoy-service.yaml
   - metadata-grpc-sa.yaml
 images:
-  - name: registry.app.corpintra.net/dna/ml-pipeline/metadata-envoy
+  - name: gcr.io/ml-pipeline/metadata-envoy
     newTag: 1.7.0

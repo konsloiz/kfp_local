@@ -9,5 +9,5 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: registry.app.corpintra.net/dna/ml-pipeline/cache-server
+  - name: gcr.io/ml-pipeline/cache-server
     newTag: 1.7.0
