@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: main
-        image: gcr.io/ml-pipeline/cache-deployer:dummy
+        image: konsloiz/cache-deployer:dummy
 
         imagePullPolicy: Always
         env:
